@@ -1,0 +1,20 @@
+subject = "Wachtwoord reset link Portfolio App"
+==
+
+Hi {{ name }},
+
+Good news! User {{ user }} just added your product "{{ product }}" to a project.
+
+This message was sent using no formatting (plain text)
+==
+Hallo {{ name ?: 'Voorbeeld' }},
+
+Je kan de volgende link gebruiken om je wachtwoord te wijzigen:
+
+{% partial 'button' url=link type='positive' body %}
+Wachtwoord wijzigen
+{% endpartial %}
+
+{% partial 'subcopy' body %}
+**Dit is een automatisch verstuurd bericht. <br />Ervaar je een probleem? Reageer dan op deze e-mail.**
+{% endpartial %}
