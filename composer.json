@@ -1,0 +1,19 @@
+{
+    "name": "kloos/oc-auth-plugin",
+    "type": "october-plugin",
+    "description": "Extends the auth behaviors",
+    "keywords": ["october", "cms", "auth", "plugin"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sebastiaan Kloos",
+            "email": "sebastiaan@kloos.dev",
+            "role": "Owner"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.8",
+        "composer/installers": "~1.0",
+        "rainlab/user-plugin": "dev-master"
+    }
+}
